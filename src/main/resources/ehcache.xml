@@ -1,0 +1,11 @@
+<ehcache updateCheck="true" monitoring="autodetect"
+         dynamicConfig="true">
+    <cache name="stringsCache"
+           maxEntriesLocalHeap="1"
+           eternal="false"
+           timeToIdleSeconds="300"
+           timeToLiveSeconds="600"
+           memoryStoreEvictionPolicy="LFU">
+    </cache>
+
+</ehcache>
