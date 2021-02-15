@@ -35,8 +35,6 @@ public class DemoApplication {
         System.out.println("Call service and print with arg1");
         System.out.println(stringsService.strings(arg1));
 
-
-
 //        EXAMPLE 2 - with strange key evaluation
 //        System.out.println("Call service and print with arg1");
 //        System.out.println(stringsService.strings("1", arg1));
